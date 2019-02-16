@@ -73,3 +73,17 @@ code {
     margin-right: auto;
     margin-bottom: 1em;
 }
+
+.taxonomy{
+    display: grid;
+    grid: auto-flow / auto auto auto;
+}
+
+.taxonomy-item {
+    color: black;
+    text-align: center;
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 1px black solid;
+    border-radius: 0.25em;
+}

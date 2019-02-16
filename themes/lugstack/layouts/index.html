@@ -3,4 +3,12 @@
     <h1>{{.Title}}</h1>
 </header>
 {{.Content}}
+
+<div class="taxonomy">
+    {{ range .Site.Menus.stacktop }}
+    <a href="{{.URL}}">
+        <div class="taxonomy-item">{{.Name}}</div>
+    </a>
+    {{ end }}
+</div>
 {{ end }}
