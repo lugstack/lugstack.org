@@ -6,6 +6,22 @@ body {
     overflow-x: hidden;
 }
 
+h2 {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+header {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+header, p, #top-bar {
+        margin-bottom: 1em;
+}
+
 footer {
     background: green;
     color: white;
@@ -18,17 +34,14 @@ footer {
     width: 100%;
 }
 
-header {
-    text-align: center;
-    font-size: xx-large;
-    font-weight: bold;
+code {
+    font-family: monospace;
+    background: lemonchiffon;
+    border-radius: 4px;
+    padding: 0.1em;
 }
 
-header, p, #header {
-        margin-bottom: 1em;
-}
-
-#header {
+#top-bar {
     background: green;
     color: white;
     padding: 1em;
@@ -41,6 +54,17 @@ header, p, #header {
     color: white;
     font-weight: bold;
     text-decoration: none;
+}
+
+#header, ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header, ul, li {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
 }
 
 #content {
