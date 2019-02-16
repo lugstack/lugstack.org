@@ -9,29 +9,38 @@ body {
 footer {
     background: green;
     color: white;
-    width: 100%;
     padding: 0.5em;
     text-align: center;
     font-weight: bold;
     font-size: small;
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 
 header {
-    width: 100%;
     text-align: center;
-    margin-bottom: 1em;
     font-size: xx-large;
     font-weight: bold;
+}
+
+header, p, #header {
+        margin-bottom: 1em;
 }
 
 #header {
     background: green;
     color: white;
-    width: 100%;
     padding: 1em;
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header, a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #content {

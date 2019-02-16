@@ -3,10 +3,12 @@ title: "Welcome to LUGStack"
 date:  2019-02-12T23:00:00
 ---
 
-What is this?  This is a collection of software and opinions on this
-software that forms the stack of software that some particularly
-grumpy administrators use.  We all met up as members of a particular
-Linux Users Group or by being pulled into various LUG related IRC
-channels.  Given that other people were far too optimistic about
-software, this site was born to provide a much less optimistic view of
-the software world, while still providing some ideas for what to do.
+Software sucks.  This is a fact of life known to anyone who regularly
+deals with software.  Anyone who tells you otherwise is either lying,
+ignorant, or both.  This site exists to curate a list of software
+that's tolerable to work with.  Grumpy administrators run this site,
+and so anything that's made it here should be reasonably sure to not
+explode in your face.
+
+Software that is tolerable is sorted by category on this site.
+Categories we currently put up with are listed below:

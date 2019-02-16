@@ -1,4 +1,4 @@
 baseURL = "http://lugstack.org/"
 languageCode = "en-us"
-title = "The Stack for Grumpy SysOps"
+title = "LUGStack"
 theme = "lugstack"

@@ -1,5 +1,10 @@
 <div id="header">
-    The LUGStack
+    <span class="bar-item"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></span>
+    <span class="bar-itme">
+        <ul>
+            {{ range .Site.Menus.topbar }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+        </ul>
+    </span>
 </div>
-
-<br />
