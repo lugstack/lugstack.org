@@ -3,4 +3,11 @@
     <h1>{{.Title}}</h1>
 </header>
 {{.Content}}
+<div class="taxonomy">
+    {{ range .Pages }}
+    <a href="{{.Permalink}}">
+        <div class="taxonomy-item">{{.Title}}</div>
+    </a>
+    {{ end }}
+</div>
 {{ end }}

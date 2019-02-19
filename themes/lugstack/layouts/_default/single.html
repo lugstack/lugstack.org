@@ -3,6 +3,10 @@
     <h1>{{ .Title }}</h1>
 </header>
 <article>
-{{ .Content }}
+    {{ .Content }}
 </article>
+<hr />
+<div id="article-meta">
+    Article by <code>{{ .Params.Author }}</code> | Published {{ .PublishDate }}
+</div>
 {{ end }}
