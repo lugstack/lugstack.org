@@ -25,6 +25,10 @@ header, p, #top-bar {
         margin-bottom: 1em;
 }
 
+p {
+    line-height: 1.5;
+}
+
 footer {
     background: green;
     color: white;
